@@ -6,6 +6,7 @@
 from keras import Sequential
 from keras.src.layers import Dense, Input
 
+
 # 필요한 라이브러리
 import numpy as np
 import tensorflow as tf

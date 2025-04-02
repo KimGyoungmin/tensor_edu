@@ -20,6 +20,9 @@ y = [81, 93, 91, 97]
 mx = np.mean(x)
 my = np.mean(y)
 
+print(f"x의 평균값 : {mx}")
+print(f"y의 평균값 : {my}")
+
 
 # 최소 제곱법의 분모 구하기
 deno = sum([(i-mx)**2 for i in x])
@@ -39,5 +42,7 @@ a = mole / deno
 
 # 절편 b의 값 구하기
 b = my - mx*a
+print(f"기울기a의 값 : {a}")
+print(f"절편b의 값 : {b}")
 
 print(f"최소 제곱법을 이용한 회귀분석 : y = {a}x + {b}")
